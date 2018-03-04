@@ -21,6 +21,6 @@ function currentLine(katzDeliLine) {
 for(var i=0; i<katzDeliLine.length; i++) {
   lineNamesandNumbers.push(i+1 + ". "+ katzDeliLine[i]);
 }
-console.log("The line is currently: " + lineNamesandNumbers)
+console.log("The line is currently: " + lineNamesandNumbers.join(', '))
 return "The line is currently: " + lineNamesandNumbers.join(', ');
 }
